@@ -25,5 +25,5 @@ function SvgComponent(props: React.SVGProps<SVGSVGElement>) {
     );
 }
 
-const IconComponent = convertIcon(SvgComponent, 'fast_foward');
+const IconComponent = convertIcon(SvgComponent, 'fast_forward');
 export default IconComponent;
